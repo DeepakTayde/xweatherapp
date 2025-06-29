@@ -46,7 +46,7 @@ const Weather = () => {
         />
         <button type="submit">Search</button>
       </form>
-      {isLoading && <h3>Loading Data...</h3>}
+      {isLoading && <p>Loading Data...</p>}
       {cityData && (
         <div className="weather-cards">
           <div className="weather-card">
